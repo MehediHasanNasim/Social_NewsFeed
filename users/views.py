@@ -21,7 +21,7 @@ def user_login(request):
 
 
 
-# @login_required
+@login_required
 def index(request):
     return render(request, 'users/index.html')
 # def user_login(request):
