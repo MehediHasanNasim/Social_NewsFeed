@@ -1,4 +1,8 @@
 from django import forms
+from django.contrib.auth.models import User
+from .models import Profile
+
+# class UserEditForm(forms)
 
 class LoginForm(forms.Form):
     username = forms.CharField()
@@ -12,7 +16,7 @@ class UserRegistrationForm(forms.ModelForm):
     
     
     class Meta:
-        model = 
+        model = User
         fields = {'username', 'email', 'first_name'}
     
     def check_password(self):
