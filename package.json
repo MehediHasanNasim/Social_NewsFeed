@@ -1,0 +1,24 @@
+{
+  "name": "myfeed",
+  "version": "1.0.0",
+  "description": "A social media newsfeed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwind build users/static/users/tw.css -o users/static/users/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehediHasanNasim/Social_NewsFeed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehediHasanNasim/Social_NewsFeed/issues"
+  },
+  "homepage": "https://github.com/MehediHasanNasim/Social_NewsFeed#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}
